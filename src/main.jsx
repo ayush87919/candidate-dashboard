@@ -10,22 +10,15 @@ import Heading from './components/heading.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar /> 
-    <div className='grid grid-cols-4'>
+    <div className='grid grid-cols-4 relative '>
       <div className='col-span-1'>
         <Navbar2/>
       </div>
-      <div className='col-span-3'>
+      <div className='md:col-span-3 col-span-4 '>
         <Heading />
         </div>
       
       </div>
     
-      
-
-    
-    
-    
-    
-   
   </React.StrictMode>,
 )
