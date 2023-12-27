@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar /> 
     <div className='grid grid-cols-4 relative '>
-      <div className='col-span-1'>
+      <div className='col-span-4 md:col-span-1'>
         <Navbar2/>
       </div>
       <div className='md:col-span-3 col-span-4 '>
