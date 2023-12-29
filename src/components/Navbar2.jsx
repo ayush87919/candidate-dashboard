@@ -2,7 +2,8 @@ import { useState } from 'react';
 import Avatar from '../assets/Avatar.png';
 import Vector from '../assets/Vector.svg';
 import support from '../assets/support.svg';
-import settings from '../assets/settings.svg';
+import sideways1 from '../assets/sideways1.png';
+import sideways2 from '../assets/sideways2.png';
 
 export default function Navbar2() {
 
@@ -34,15 +35,21 @@ export default function Navbar2() {
             <li className="text-sm font-medium text-slate-400">Client Meetings</li>
             <li className="font-normal text-base">Junior Software Engineer</li>
             <li className="text-base">PR Assistant</li>
-            <li className="flex pt-20"><img src={support} className="w-5 h-5" /><p className="pl-2">Support</p></li>
-            <li className="flex "><img src={settings} className="w-5 h-5" /><p className="pl-2">Setting</p></li>
-            <li className="flex pb-32"><img src={Avatar} className="w-10 h-10" /><p className="pl-2 w-20">oliva rhye olivia@untitledui.com</p></li>
+            <li className=" flex pt-20">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh5CiOFfWAYL18sSXgG0V_HJjCSzU7fCS0nA&usqp=CAU" className="w-5 h-6 pt-1" />
+              <p className="pl-2">
+                Support
+                </p>
+                </li>
+            <li className="flex "><img src="https://www.computerhope.com/jargon/s/settings-generic-gear.png" className="w-5 h-6 pt-1" /><p className="pl-2">Settings</p></li>
+            <li className="flex pb-32"><img src={Avatar} className="w-10 h-10" /><p className="pl-2 w-20">olivia rhye olivia@untitledui.com</p></li>
           </div>
         </ul>
       </div>
-
-      <button className={`top-[50vw] absolute md:hidden ${show?'right-0':'left-[100vw]'}`} onClick={toggleSidebar}>
-        Toggle Sidebar
+        
+      <button className={`top-[50vw] text-white  absolute md:hidden ${show?'right-0  text-blue-900':'left-[100vw] text-white'}`} onClick={toggleSidebar} >
+        {show ? <img src={sideways2} alt="Arrow Icon"className='w-10 h-10' /> : <img src={sideways1} alt="Arrow Icon"className='w-10 h-10' />}
+        {show ? 'close' : 'open'}
       </button>
     </section>
 
