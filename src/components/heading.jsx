@@ -21,8 +21,8 @@ export default function Heading() {
               Top Candidate Scores
             </h1>
             <div className='flex-1'></div>
-            <div className=' pr-3 md:pr-14 w-24 md:w-auto'>
-              <button className='flex border rounded-lg px-2 py-2'>
+            <div className=' pr-3 md:pr-14 w-24 md:w-auto grid'>
+              <button className='flex border rounded-lg px-2 py-2 place-content-center'>
                 <img src={cloud} className='w-5 h-6 pt-2' />
                 <p className='px-2 '>Export report</p>
               </button>
