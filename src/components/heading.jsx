@@ -21,7 +21,7 @@ export default function Heading() {
               Top Candidate Scores
             </h1>
             <div className='flex-1'></div>
-            <div className='pb-5 md:pr-14 w-24 md:w-auto'>
+            <div className='pb-5 pr-3 md:pr-14 w-24 md:w-auto'>
               <button className='flex border rounded-lg px-2 py-2'>
                 <img src={cloud} className='w-5 h-6 pt-2' />
                 <p className='px-2 '>Export report</p>
@@ -55,7 +55,7 @@ export default function Heading() {
                 <p className='pr-2'>1.</p ><img src="https://source.unsplash.com/random/900%C3%97700/?art,paint,pencils" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96 '>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex justify-center  '>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 w-24 h-7 px-2 pt-1 rounded-lg  text-blue-400 '>
                   80% match
                 </div>
@@ -70,7 +70,7 @@ export default function Heading() {
                 <p className='pr-2'>2.</p><img src="https://source.unsplash.com/random/900%C3%97700/?caves" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex justify-center  '>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 w-24 h-7 px-2  rounded-lg  text-blue-400  '>
                   80% match
                 </div>
@@ -85,7 +85,7 @@ export default function Heading() {
                 <p className='pr-2'>3.</p><img src="https://source.unsplash.com/random/900%C3%97700/?legendary,animals" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex justify-center  '>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 rounded-lg  text-blue-400 w-24 h-7  px-2 '>
                   77% match
                 </div>
@@ -100,7 +100,7 @@ export default function Heading() {
                 <p className='pr-2'>4.</p><img src="https://source.unsplash.com/random/900%C3%97700/?buildings" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex justify-center '>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 rounded-lg  text-blue-400 w-24 h-7 px-2 '>
                   76% match
                 </div>
@@ -116,7 +116,7 @@ export default function Heading() {
               </div>
 
               <div className='flex-1'></div>
-              <h3 className='flex justify-center'>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 rounded-lg  text-blue-400 w-24 h-7 px-2 '>
                   76% match
                 </div>
@@ -131,7 +131,7 @@ export default function Heading() {
                 <p className='pr-2'>6.</p><img src="https://source.unsplash.com/random/900%C3%97700/?oceans" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex justify-center  '>
+              <h3 className='flex justify-end pt-2 md:pt-0 '>
                 <div className='bg-blue-100 rounded-lg text-blue-400 w-24 h-7 px-2 '>
                   76% match
                 </div>
