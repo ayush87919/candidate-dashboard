@@ -16,12 +16,12 @@ export default function Heading() {
       <div className=''>
         <div className='border-slate-500 border-2 rounded-b-none rounded-lg border-b-0'>
 
-          <div className="flex flex-1 pt-10">
+          <div className="flex flex-1  py-7">
             <h1 className="text-3xl font-bold md:font-extrabold w-40 md:w-96 pl-1  md:pl-14">
               Top Candidate Scores
             </h1>
             <div className='flex-1'></div>
-            <div className='pb-5 pr-3 md:pr-14 w-24 md:w-auto'>
+            <div className=' pr-3 md:pr-14 w-24 md:w-auto'>
               <button className='flex border rounded-lg px-2 py-2'>
                 <img src={cloud} className='w-5 h-6 pt-2' />
                 <p className='px-2 '>Export report</p>
