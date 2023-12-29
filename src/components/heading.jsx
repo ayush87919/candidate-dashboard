@@ -17,14 +17,14 @@ export default function Heading() {
         <div className='border-slate-500 border-2 rounded-b-none rounded-lg border-b-0'>
 
           <div className="flex flex-1 pt-10">
-            <h1 className="text-3xl font-bold w-96 pl-20">
+            <h1 className="text-3xl font-extrabold w-96 pl-14">
               Top Candidate Scores
             </h1>
             <div className='flex-1'></div>
             <div className='pb-5 md:pr-14'>
               <button className='flex border rounded-lg px-2 py-2'>
                 <img src={cloud} className='w-5 h-6 pt-2' />
-                <p className='px-2 pt-1'>Export report</p>
+                <p className='px-2 '>Export report</p>
               </button>
             </div>
           </div>
@@ -50,12 +50,12 @@ export default function Heading() {
             </div>
           </div>
           <div className='px-4 md:px-20'>
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10 '>
               <div className='flex flex-1 '>
                 <p className='pr-2'>1.</p ><img src="https://source.unsplash.com/random/900%C3%97700/?art,paint,pencils" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96 '>Current title @Company Name</p> </p>
               </div>
               <div className='flex-1'></div>
-              <h3 className='flex md:items-start items-center  '>
+              <h3 className='flex'>
                 <div className='bg-blue-100 w-24 h-7 px-2 pt-1 rounded-lg  text-blue-400 '>
                   80% match
                 </div>
@@ -65,7 +65,7 @@ export default function Heading() {
               </h3>
             </h1>
 
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10'>
               <div className='flex flex-1 '>
                 <p className='pr-2'>2.</p><img src="https://source.unsplash.com/random/900%C3%97700/?caves" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
@@ -80,7 +80,7 @@ export default function Heading() {
               </h3>
             </h1>
 
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10'>
               <div className='flex flex-1 '>
                 <p className='pr-2'>3.</p><img src="https://source.unsplash.com/random/900%C3%97700/?legendary,animals" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
@@ -95,7 +95,7 @@ export default function Heading() {
               </h3>
             </h1>
 
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10'>
               <div className='flex flex-1 '>
                 <p className='pr-2'>4.</p><img src="https://source.unsplash.com/random/900%C3%97700/?buildings" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
@@ -110,7 +110,7 @@ export default function Heading() {
               </h3>
             </h1>
 
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10'>
               <div className='flex flex-1'>
                 <p className='pr-2'>5.</p><img src="https://source.unsplash.com/random/900%C3%97700/?fishes" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
@@ -126,7 +126,7 @@ export default function Heading() {
               </h3>
             </h1>
 
-            <h1 className='flex pb-10'>
+            <h1 className='md:flex pb-10'>
               <div className='flex flex-1 '>
                 <p className='pr-2'>6.</p><img src="https://source.unsplash.com/random/900%C3%97700/?oceans" className="w-10 h-10 rounded-3xl" /><p className='pl-2'>Phoenix Baker<p className='max-w-96'>Current title @Company Name</p> </p>
               </div>
