@@ -47,9 +47,10 @@ export default function Navbar2() {
         </ul>
       </div>
         
-      <button className={`top-[50vw] text-white  absolute md:hidden ${show?'right-0  text-blue-900':'left-[100vw] text-white'}`} onClick={toggleSidebar} >
+      <button className={`top-[50vw]  absolute md:hidden ${show?'right-0  text-blue-900':'left-[100vw] text-white'}`} onClick={toggleSidebar} >
         {show ? <img src={sideways2} alt="Arrow Icon"className='w-10 h-10' /> : <img src={sideways1} alt="Arrow Icon"className='w-10 h-10' />}
         {show ? 'close' : 'open'}
+
       </button>
     </section>
 
