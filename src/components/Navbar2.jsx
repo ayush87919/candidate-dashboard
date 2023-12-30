@@ -14,7 +14,7 @@ export default function Navbar2() {
   }
 
   return (
-    <section className={`absolute md:static md:translate-x-0 w-full ${show ? 'translate-x-0' : 'translate-x-[-100vw]'}`}>
+    <section className={`absolute md:static md:translate-x-0 transition ease-in-out duration-1000 w-full ${show ? 'translate-x-0' : 'translate-x-[-100vw]'}`}>
 
       <div className="bg-blue-900 w-full">
         <ul className="ml-7 space-y-7 mr-7">
@@ -47,7 +47,7 @@ export default function Navbar2() {
         </ul>
       </div>
         
-      <button className={`top-[50vw]  absolute md:hidden ${show?'right-0  text-blue-900':'left-[100vw] text-white'}`} onClick={toggleSidebar} >
+      <button className={`top-[50vw]  absolute md:hidden transition ease-in-out duration-1000 ${show?'right-0  text-blue-900':'left-[100vw] text-white'}`} onClick={toggleSidebar} >
         {show ? <img src={sideways2} alt="Arrow Icon"className='w-5 h-5' /> : <img src={sideways1} alt="Arrow Icon"className='w-5 h-5' />}
         {show ? 'cl' : 'op'}
 

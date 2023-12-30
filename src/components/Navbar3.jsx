@@ -33,9 +33,7 @@ const DropdownNavbar = () => {
           </svg>
         </button>
       </div>
-      <div className={`w-full flex-grow lg:flex lg:items-center  lg:w-auto ${isOpen ? 'block' : 'hidden'}`}
-      
-      >
+      <div className={`w-full flex-grow lg:flex lg:items-center transition-all duration-200 ${isOpen ? 'block' : 'hidden'}`}>
         <div className="text-sm lg:flex-grow lg:pl-16 lg:space-x-20">
           <a
             href="#"
